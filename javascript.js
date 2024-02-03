@@ -11,6 +11,9 @@ function inputAdvice(data) {
 			<div class="advice-ID">ADVICE #${data.slip.id}</div>
 			<div class="advice-area">
 				<div class="advice">"${data.slip.advice}"</div>
+				<div class="img-area">
+					<img class="play-img" src="images/pattern-divider-desktop.svg" alt="">
+				</div>
 				<div class="btn-area">
 					<button onclick="get()">click</button>
 				</div>

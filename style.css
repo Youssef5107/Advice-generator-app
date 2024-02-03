@@ -16,14 +16,25 @@ body {
 
 .advice-ID {
 	text-align: center;
+	margin-top: 50px;
 }
 
-.advice-area {}
+.advice-area {
+	max-width: 300px;
+	width: 100%;
+	margin: 30px auto 0px;
+}
 
 
 .advice {
 	color: white;
 	text-align: center;
+}
+
+.img-area {
+	display: flex;
+	justify-content: center;
+	margin: 25px auto;
 }
 
 .btn-area {
