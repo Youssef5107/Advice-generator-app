@@ -2,19 +2,21 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: hsl(207, 26%, 17%);
+	background-color: hsl(218, 23%, 16%);
 	height: 100vh;
 }
 
 .advice-box-container {
 	max-width: 500px;
 	width: 100%;
-	height: 300px;
+	height: 280px;
 	border-radius: 7px;
-	background-color: hsl(209, 23%, 22%);
+	background-color: hsl(217, 19%, 24%);
+	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
 }
 
 .advice-ID {
+	color: hsl(164.02deg 100% 50%);
 	text-align: center;
 	margin-top: 50px;
 }
@@ -34,7 +36,7 @@ body {
 .img-area {
 	display: flex;
 	justify-content: center;
-	margin: 25px auto;
+	margin: 30px auto 0px;
 }
 
 .btn-area {
@@ -43,9 +45,36 @@ body {
 }
 
 button {
-	width: 30px;
-	height: 30px;
+	width: 55px;
+	height: 55px;
 	padding: 20px;
-	background-color: aquamarine;
 	color: white;
+	position: absolute;
+	top: 520px;
+	border: 0px;
+	border-radius: 50%;
+	background-color: hsl(164.02deg 100% 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media(max-width:500px) {
+	.advice-box-container {
+		margin: auto 30px;
+	}
+
+	.play-img {
+		width: 300px;
+	}
+}
+
+@media(max-width:400px) {
+	.advice-box-container {
+		margin: auto 5px;
+	}
+
+	.play-img {
+		width: 100%;
+	}
 }

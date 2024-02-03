@@ -15,7 +15,7 @@ function inputAdvice(data) {
 					<img class="play-img" src="images/pattern-divider-desktop.svg" alt="">
 				</div>
 				<div class="btn-area">
-					<button onclick="get()">click</button>
+					<button onclick="get()"><img class="btn-img" src="images/icon-dice.svg" alt=""></button>
 				</div>
 			</div>
 		`
